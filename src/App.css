@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.shape-align {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input .colorinp{
+  color: white;
+} */
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+
+.box-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
